@@ -5,28 +5,18 @@ import { Code, Palette, Zap, Users } from "lucide-react";
 const About = () => {
   const skills = [
     "React", "TypeScript", "Next.js", "Node.js", "Python", "PostgreSQL",
-    "Tailwind CSS", "Figma", "Git", "AWS", "Docker", "GraphQL"
+    "Tailwind CSS", "GitHub", "Git", "Firebase", "React native", "Django", "JavaScript"
   ];
 
   const experiences = [
+    
     {
-      title: "Senior Frontend Developer",
-      company: "TechCorp Inc.",
-      period: "2022 - Present",
-      description: "Leading frontend development for enterprise applications, mentoring junior developers, and implementing modern React patterns."
+      title: "Full Stack Development Intern",
+      company: "ATS Technologies",
+      period: "06- 2025 - 07- 2022",
+      description: "Gained hands on experience building real-world applications using React and Django during a Internship."
     },
-    {
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      period: "2021 - 2022",
-      description: "Built scalable web applications from scratch, designed user interfaces, and collaborated with cross-functional teams."
-    },
-    {
-      title: "Frontend Developer",
-      company: "Digital Agency",
-      period: "2020 - 2021",
-      description: "Developed responsive websites and web applications for various clients, focusing on performance and user experience."
-    }
+    
   ];
 
   return (
@@ -39,9 +29,7 @@ const About = () => {
               About <span className="text-gradient">Me</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              I'm a passionate developer who loves creating digital experiences that make a difference. 
-              With a strong foundation in modern web technologies and a keen eye for design, 
-              I bring ideas to life through code.
+              Hi, I’m Bavin Kumar R, a passionate and self-driven developer currently pursuing my B.Tech in Information Technology at Selvam College of Technology. My journey into the world of coding started with curiosity and a love for solving problems, and it quickly turned into a mission to build meaningful, impactful tech solutions.
             </p>
           </div>
         </div>
@@ -57,18 +45,26 @@ const About = () => {
               <h2 className="text-3xl font-bold">My Story</h2>
               <div className="prose prose-lg text-muted-foreground space-y-4">
                 <p>
-                  My journey into tech started during college when I built my first website. 
-                  What began as curiosity quickly turned into passion as I discovered the power 
-                  of code to solve real-world problems.
+                  My first exposure to coding was through Python, which immediately sparked my interest. The simplicity yet power of the language inspired me to dive deeper. I started creating small projects like:
                 </p>
                 <p>
-                  Over the years, I've had the privilege of working with amazing teams, 
-                  learning from industry experts, and contributing to projects that impact 
-                  thousands of users daily.
+                  Avengers logo using turtle (my first Code),
+                  Sentiment Analysis & Weather Analysis.
                 </p>
                 <p>
-                  When I'm not coding, you'll find me exploring new technologies, 
-                  contributing to open source projects, or enjoying a good book with a cup of coffee.
+                  As I progressed, I didn't stop at basics. I explored:
+                </p>
+                <p>
+⚙️ Backend with Django, Express.js, and Firebase
+                </p>
+                <p>
+📱 Mobile Apps using React Native and Expo
+              </p>
+              <p>
+🎓 A full-stack Student Management System with role-based login and document handling
+              </p>
+              <p>
+Each project taught me something new—from frontend polish with Tailwind CSS to API integration, authentication, and deployment.
                 </p>
               </div>
             </div>

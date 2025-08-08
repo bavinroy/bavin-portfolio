@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Send, Github, Linkedin } from "lucide-react";
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -31,19 +31,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "alex.johnson@email.com",
-      href: "mailto:alex.johnson@email.com"
+      value: "bavingeetha@gmail.com",
+      href: "mailto:bavingeetha@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91- 7708440343",
+      href: "tel:+91 7708440343"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Namakkal, Tamilnadu- India",
       href: "#"
     }
   ];
@@ -52,21 +52,16 @@ const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/bavinroy",
       color: "hover:text-gray-800"
     },
     {
       icon: Linkedin,
       name: "LinkedIn", 
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/bavin-kumar-3a2170246/",
       color: "hover:text-blue-600"
     },
-    {
-      icon: Twitter,
-      name: "Twitter",
-      href: "https://twitter.com",
-      color: "hover:text-blue-400"
-    }
+  
   ];
 
   return (

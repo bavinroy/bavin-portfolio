@@ -2,21 +2,20 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import AnimatedTitle from "@/components/AnimatedTitle";
 import { Download, Github, Linkedin, Mail, ExternalLink } from "lucide-react";
-import profileImage from "@/assets/profile-image.jpg";
+import profileImage from "@/assets/bavin.jpeg";
 
 const Home = () => {
   const titles = [
-    "Full Stack Developer",
-    "React Specialist", 
-    "UI/UX Designer",
-    "Problem Solver",
-    "Tech Enthusiast"
+    'Full Stack Developer',
+  'Python Enthusiast',
+  'React Native Lover',
+  'AI & ML Explorer',
   ];
 
   const handleResumeDownload = () => {
     // Create a dummy PDF for demo purposes
     const link = document.createElement('a');
-    link.href = '/sample-resume.pdf';
+    link.href = '/BAVIN KUMAR R.pdf';
     link.download = 'resume.pdf';
     link.click();
   };
@@ -32,7 +31,7 @@ const Home = () => {
               <div className="space-y-4">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
                   Hi, I'm{" "}
-                  <span className="text-gradient">Alex Johnson</span>
+                  <span className="text-gradient">Bavin Kumar</span>
                 </h1>
                 <div className="text-2xl sm:text-3xl lg:text-4xl text-muted-foreground">
                   I'm a{" "}
@@ -44,9 +43,8 @@ const Home = () => {
               </div>
               
               <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-                Passionate about creating beautiful, functional, and user-centered digital experiences. 
-                I specialize in modern web technologies and love turning complex problems into 
-                simple, elegant solutions.
+                I'm Bavin Kumar R, a passionate Full Stack Developer who loves turning ideas into real-world software.
+                I’ve built apps from fitness guides to secure file systems, and I enjoy exploring AI/ML on the side. I’m always eager to learn, build, and grow.
               </p>
 
               {/* Action Buttons */}
@@ -60,24 +58,10 @@ const Home = () => {
                   <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
                   Download Resume
                 </Button>
-                <Button variant="glass" size="xl">
-                  <Mail className="mr-2 h-5 w-5" />
-                  Get In Touch
-                </Button>
+                
               </div>
 
-              {/* Social Links */}
-              <div className="flex space-x-4">
-                <Button variant="ghost" size="icon" className="hover:text-primary">
-                  <Github className="h-5 w-5" />
-                </Button>
-                <Button variant="ghost" size="icon" className="hover:text-primary">
-                  <Linkedin className="h-5 w-5" />
-                </Button>
-                <Button variant="ghost" size="icon" className="hover:text-primary">
-                  <ExternalLink className="h-5 w-5" />
-                </Button>
-              </div>
+              
             </div>
 
             {/* Profile Image */}
@@ -88,7 +72,7 @@ const Home = () => {
                   <CardContent className="p-0">
                     <img
                       src={profileImage}
-                      alt="Alex Johnson - Portfolio"
+                      alt="bavin- Portfolio"
                       className="w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-lg"
                     />
                   </CardContent>
@@ -109,10 +93,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { number: "50+", label: "Projects Completed" },
-              { number: "3+", label: "Years Experience" },
-              { number: "20+", label: "Happy Clients" },
-              { number: "5", label: "Tech Stacks" },
+              
             ].map((stat, index) => (
               <Card key={index} className="text-center p-6 hover:shadow-lg transition-all duration-300">
                 <CardContent className="p-0">

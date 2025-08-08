@@ -6,57 +6,44 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment integration, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "Edu-Track(on-going)",
+      description: "An all-in-one system for students, staff, and admins. Includes features like: Role-based login system Profile management ,Document upload/download, Academic records, Notice board, Chat with notifications. It’s fully responsive, uses PostgreSQL and includes secure file handling via Djano backend.",
+      image: "src/assets/img.jpeg",
+      technologies: ["React native", "Node.js", "PostgreSQL", "Django"],
+      githubUrl: "https://github.com/bavinroy",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: ["React", "Firebase", "TypeScript", "Material-UI"],
+      title: "GYM Guide App",
+      description: "A responsive mobile app that helps users with workout plans, video demos. The React native version, a splash screen with an gif animation with responsive design.",
+      image: "src/assets/icon - file.png",
+      technologies: ["React native", "TypeScript"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/bavinroy",
       featured: true
     },
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
+      title: "Weather Analysis",
+      description: "This project analyzes past weather data to forecast future conditions using machine learning techniques. It giving insights on temperature, humidity, and rain trends.",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      technologies: ["React", "OpenWeather API", "Chart.js", "CSS3"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["Python", "OpenWeather API"],
+      githubUrl: "https://github.com/bavinroy",
       featured: false
     },
     {
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and optimized performance.",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
-      technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["React", "Tailwind CSS", "Vite"],
+      githubUrl: "https://github.com/bavinroy",
       featured: false
     },
     {
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for social media management with data visualization, scheduling features, and multi-platform integration.",
+      title: "Custom Dashboard",
+      description: "A role-based dashboard with clean UI and API integration. Used for data visualization, personal profile management, and admin controls.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      technologies: ["Next.js", "D3.js", "MongoDB", "Express"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false
-    },
-    {
-      title: "Fitness Tracker",
-      description: "Mobile-first fitness application with workout tracking, progress visualization, and social features for motivation.",
-      image: "https://images.unsplash.com/photo-1571019613914-85e29c125c0f?w=600&h=400&fit=crop",
-      technologies: ["React Native", "Redux", "SQLite", "Charts"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["JavaScript", "HTML", "CSS", "MySQL"],
+      githubUrl: "https://github.com/bavinroy",
       featured: false
     }
   ];
