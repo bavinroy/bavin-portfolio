@@ -1,8 +1,6 @@
-# Welcome to your Lovable project
+# Project info
+#Vibe code
 
-## Project info
-
-**URL**: https://lovable.dev/projects/3c11da00-9dbe-45d5-8b5a-0915a76ba81d
 
 ## How can I edit this code?
 
