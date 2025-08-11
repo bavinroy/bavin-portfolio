@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: "Edu-Track(on-going)",
       description: "An all-in-one system for students, staff, and admins. Includes features like: Role-based login system Profile management ,Document upload/download, Academic records, Notice board, Chat with notifications. It’s fully responsive, uses PostgreSQL and includes secure file handling via Djano backend.",
-      image: "src/assets/img.jpeg",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjepnITbaJARuYB0s4wcRGMkydw1D2NVjcDqRUCWiDo7wxbPiRy7ldMi0gdtLDt-S9T8KJPH3hQQ8c7BrOQNQH3ZZuAVvngER9-_zyeaoOEExludTUkYeTTt5-7_WIezSMBT-6HEEZDhC0x7bejSEdzbGkPP3jaPOufexYspUqIx0f8kr3p13wp3LBpXoU/s320/img.jpeg",
       technologies: ["React native", "Node.js", "PostgreSQL", "Django"],
       githubUrl: "https://github.com/bavinroy",
       featured: true
@@ -16,7 +16,7 @@ const Projects = () => {
     {
       title: "GYM Guide App",
       description: "A responsive mobile app that helps users with workout plans, video demos. The React native version, a splash screen with an gif animation with responsive design.",
-      image: "src/assets/icon - file.png",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSRT91DLbzb1Kxon16aA6-wbDAgd9InZnz-O5ChIf2iMASzbwNClq0z9mvARl_2_UflXMk9EMWbTr5vG5KLOmh6_2_Rqjg8xEmrZ3aLXxfI2w4E0kxTt0CZxO-uLPPOh3wD_U1x2XXWEZkQyWECP8ZqSkrbFQDbXC6I-BaKVR6T3f1usW03LBd8paRHho/s320/icon.png",
       technologies: ["React native", "TypeScript"],
       liveUrl: "#",
       githubUrl: "https://github.com/bavinroy",

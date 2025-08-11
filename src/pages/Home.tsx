@@ -15,7 +15,7 @@ const Home = () => {
   const handleResumeDownload = () => {
     // Create a dummy PDF for demo purposes
     const link = document.createElement('a');
-    link.href = '/BAVIN KUMAR R.pdf';
+    link.href = 'https://drive.google.com/file/d/1i4AK3LibPo30AK-aPA8MQTuQKmTgX-zr/view?usp=drive_link';
     link.download = 'resume.pdf';
     link.click();
   };
